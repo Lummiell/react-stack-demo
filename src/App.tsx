@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import ParenthesisChecker from './Pages/ParenthesisChecker';
+import  CardStackToy  from "./Pages/CardStackToy";
 function App() {
   return (
     <div className="App">
-      <p>Hello!</p>
+      <ParenthesisChecker/>
+      <CardStackToy/>
     </div>
   );
 }
