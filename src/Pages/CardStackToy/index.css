@@ -1,0 +1,11 @@
+.red{
+    color:red;
+}
+.decksContainer{
+    display:flex;
+
+}
+.deck{
+    display:flex;
+    flex-direction: column;
+}
