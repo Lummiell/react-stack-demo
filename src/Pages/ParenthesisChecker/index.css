@@ -1,0 +1,41 @@
+
+.checkExpr{
+    background-color: #4285f4;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    transition: background-color 0.2s;
+}
+.checkExpr p,.checkExpr h2{
+color:white;
+}
+.inputExpr{
+    color:white;
+    background:transparent;
+    border:none;
+    font-size: 20pt;
+    font-family: "Roboto",sans-serif;
+}
+.formContainer{
+    padding: 0.8em;
+    border: 2px solid rgba(255, 255, 255, 0.753);
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+}
+.btnSubmit{
+    font-size: 30pt;
+    background:none;
+    border:none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0;
+    margin:0;
+}
+.resultText{
+    min-height: 2rem;
+}

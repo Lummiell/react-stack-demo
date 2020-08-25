@@ -30,16 +30,16 @@ const CardStackToy = () => {
     },
   ];
   function transferCard(fromDeck: string, toDeck: string) {
-    const foundOriginalDeck = Decks.find((item) => item.alias === fromDeck);
-    const foundDestinationDeck = Decks.find((item) => item.alias === toDeck);
-    if (foundDestinationDeck && foundOriginalDeck) {
+    const OriginalDeck = Decks.find((item) => item.alias === fromDeck);
+    const DestinationDeck = Decks.find((item) => item.alias === toDeck);
+    if (DestinationDeck && OriginalDeck) {
       const [originalDeck, setOriginalDeck] = [
-        foundOriginalDeck.get,
-        foundOriginalDeck.set,
+        OriginalDeck.get,
+        OriginalDeck.set,
       ];
       const [destinationDeck, setDestinationDeck] = [
-        foundDestinationDeck.get,
-        foundDestinationDeck.set,
+        DestinationDeck.get,
+        DestinationDeck.set,
       ];
       if (originalDeck.Cards.length > 0) {
         const transferredCard = originalDeck.Cards.shift();
@@ -66,6 +66,7 @@ const CardStackToy = () => {
     }
     setDeckA({ Cards });
   }, []);
+  
   return (
     <>
       <div className="decksContainer">
