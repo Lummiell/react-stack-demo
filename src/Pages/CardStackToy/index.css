@@ -1,11 +1,50 @@
-.red{
+.redCard{
     color:red;
 }
 .decksContainer{
     display:flex;
-
+    
+}
+.card{
+    min-width: 5em;
+    display:flex;
+    flex-direction: column;
+    margin:5px 0;
+}
+.playingCards{
+    margin:1em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    width:100%
 }
 .deck{
     display:flex;
-    flex-direction: column;
+    min-width: 10em;
+}
+.deck
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height:2em;
+    width:2em;
+}
+.transferButton{
+    font-size: 30pt;
+    background:none;
+    border:none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding: 0;
+    margin:0;
+    
+}
+.transferButton :hover{
+    background-color: #E5E5E5;
 }
