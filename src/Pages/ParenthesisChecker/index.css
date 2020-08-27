@@ -17,6 +17,7 @@ color:white;
     border:none;
     font-size: 20pt;
     font-family: "Roboto",sans-serif;
+    outline: none;
 }
 .formContainer{
     padding: 0.8em;
