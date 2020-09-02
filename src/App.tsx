@@ -3,7 +3,6 @@ import "./App.css";
 import ParenthesisChecker from "./Pages/ParenthesisChecker";
 import CardStackToy from "./Pages/CardStackToy";
 import { Tabs, Tab, Paper } from "@material-ui/core";
-import { Code as CodeIcon, Reorder as ReorderIcon } from "@material-ui/icons";
 function App() {
   const [value, setValue] = useState(0);
   const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
