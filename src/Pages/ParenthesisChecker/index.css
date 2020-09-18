@@ -4,9 +4,39 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     padding: 50px;
     transition: background-color 0.2s;
+    width:100%;
+    
+}
+.checkOptions{
+    flex:1;
+    color:white;
+}
+.checkOptions div input{
+    
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  
+}
+.checkOptions div input:checked{
+    border:5px solid white;
+}
+.checkExprForm{
+    flex:2;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }
 .checkExpr p,.checkExpr h2{
 color:white;
